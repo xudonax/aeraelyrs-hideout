@@ -5,6 +5,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
     compressHTML: true,
     trailingSlash: 'always',
+    base: '/the-network/',
     integrations: [
         starlight({
             title: 'The Network - A Pathfinder 2e Adventure',
