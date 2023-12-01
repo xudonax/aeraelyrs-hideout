@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-    base: '/the-network',
+    base: '/aeraelyrs-hideout/',
     site: 'https://www.xudonax.eu',
 
     compressHTML: true,
